@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+    <ImageView
+            android:id="@+id/itemImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@color/colorPrimary"/>
+
+    <TextView
+            android:id="@+id/itemLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMATERA BARAT"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"/>
+
+    <TextView
+            android:id="@+id/itemName"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUMATERA BARAT"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:layout_above="@+id/itemLokasi"
+            android:textColor="@android:color/white"
+    />
+
+</RelativeLayout>
